@@ -41,7 +41,7 @@ body{
 h1{
 	display:block;
 	align-self: center;
-	font-size: 37px;
+	font-size: 39px;
     font-family: 'Readex Pro', sans-serif;
 }
 .subtitulo{
@@ -76,11 +76,11 @@ flex-wrap: wrap;
     font-size: 18px;
 }
 .nobg .capitulo p{
-    font-size:18px;
+    font-size:22px;
     font-weight: 400;
 }
 .anio h3{
-    font-size: 25px;
+    font-size: 29px;
     margin-bottom: 70px;
 }
 iframe{
@@ -99,14 +99,14 @@ justify-content: center;
 h2{
     display:block;
 	align-self: center;
-	font-size: 25px;
+	font-size: 29px;
     font-family: 'Readex Pro', sans-serif;
     margin-left: 12%;
     margin-bottom: 5%;
 }
-.h3{font-size: 25px;}
+.h3{font-size: 29px;}
 .h4{
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .temporadas{
@@ -144,7 +144,7 @@ h2{
     margin-right: 50px;
 }
 .lentes h2{
-    font-size: 35px;
+    font-size: 39px;
 }
 
 /*                                      FOOTER                                                  */
@@ -157,7 +157,7 @@ textarea {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
   top: 50%;
   left: 50%;
