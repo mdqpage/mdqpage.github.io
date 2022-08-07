@@ -36,6 +36,7 @@ margin: 0%;}
 }
 
 .container {
+	
 	flex-wrap: wrap;
 	width: 90%;
 	max-width: 1200px;
@@ -57,6 +58,7 @@ margin: 0%;}
 }
 
 .evento {
+	scrollbar-width: none;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 250px;
