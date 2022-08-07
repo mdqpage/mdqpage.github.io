@@ -1,4 +1,3 @@
-
 html{overflow-x: hidden;
     font-family: 'Readex Pro', sans-serif;
 	}
@@ -12,15 +11,16 @@ hr.soften {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-*{   
+body{   
     font-family: 'Readex Pro', sans-serif;
-    color: #1b3231;
 }
 
 .container{ 
     padding: 20px 0;
     background: #e6e7e4;
     margin-bottom: 30px;
+    color: #1b3231;
+
 }
 .space{
     background: #e6e7e4;
@@ -124,6 +124,8 @@ h2{
 
 
 .containerAnteojos{
+    color: #1b3231;
+
     
     width: 98%;
     margin:1% auto;
@@ -254,16 +256,19 @@ textarea {
 }
 
 .subtituloFooter{
+    color: #1b3231;
+
     margin-left:8%;
 }
 
-.me{
+.me{    color: #1b3231;
+
     display:flex;
     margin-top: 150px;
     justify-content: center;
 }
 .me p{
-margin-left: 50px;}
+margin-left: 5px;}
 
 @media screen and (max-width: 1000px) {
     .episodio{
