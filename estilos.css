@@ -1,0 +1,169 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+body {
+	background: #e6e7e4;
+    font-family: 'Readex Pro', sans-serif;
+	color: #1b3231;
+}
+
+html{
+	max-width: 100%;
+}
+.container .evento .text p {font-size: 18px;}
+
+.cabecera{width: 100%;}
+body .cabecera img{width: 100%;
+margin: 0%;}
+
+.inicio{
+	margin-left:5px;
+	margin-top:10px;
+	padding:10px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 35vh;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.container {
+	flex-wrap: wrap;
+	width: 90%;
+	max-width: 1200px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.container::after {
+	content: "";
+	width: 2px;
+	height: 100%;
+	background: #1b3231;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 1px);
+	z-index: 1;
+}
+
+.evento {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 250px;
+	position: relative;
+}
+
+.evento::after {
+	content: "";
+	display: block;
+	width: 14px;
+	height: 14px;
+	border-radius: 100px;
+	background: #DCDFD9;
+	border: 2px solid #1b3231;
+	position: absolute;
+	z-index: 2;
+	top: calc(50% - 9px);
+	left: calc(50% - 9px);
+}
+
+.fecha {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	font-weight: normal;
+	justify-self: center;
+	margin-bottom: 5%;
+}
+.text{
+	max-width: 46%;
+	margin:0%;
+}
+.foto {
+	margin: auto 0;
+	width: 42%;
+	border: 10px solid #fff;
+	position: relative;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	justify-content: center;
+}
+
+.foto::after {
+	content: "";
+	display: block;
+	border: 20px solid transparent;
+	border-left: 20px solid #fff;
+	position: absolute;
+	right: -50px;
+	top: calc(50% - 20px);
+}
+
+
+
+
+
+.foto img {
+	max-width: ;
+	width: 100%;
+	vertical-align: top;
+	
+}
+
+.evento:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+
+
+.evento:nth-child(even) .foto::after {
+	content: "";
+	border: 20px solid transparent;
+	border-right: 20px solid #fff;
+	right: initial;
+	left: -50px;
+}
+
+
+
+/*					FOOTER						*/
+
+
+
+
+
+
+
+@media screen and (max-width:850px){
+	.container .evento .text p {font-size: 13px;}
+	.foto{border: 5px solid #fff;}
+	.foto::after {
+		content: "";
+		display: none;
+		
+	}
+	.foto img:hover{
+		border-radius: 12px;
+		
+		
+	}
+	body > img{display:none;}
+	h1{font-size: 40px;}
+
+	@media screen and (max-width:650px){
+
+		.container .evento .text p {font-size: 13px;}
+
+	}
+	
+}
