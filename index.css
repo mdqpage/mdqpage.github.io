@@ -20,10 +20,10 @@ body{
 
 .container{ 
     width:98%;
-    margin:1;		
-    padding: 20px 0;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin:1%;		
+    padding: 20px 0px;
+    background: rgb(34,193,195);
+    background: linear-gradient(104deg, rgba(34,193,195,1) 0%, rgba(182,209,98,1) 65%, rgba(235,182,67,1) 100%);
     margin-bottom: 30px;
     color: #1b3231;
 
