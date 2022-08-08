@@ -20,7 +20,7 @@ body{
 
 .container{ 
     width:98%;
-	margin: 1%
+    margin: 1%;
     padding: 20px 0;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
