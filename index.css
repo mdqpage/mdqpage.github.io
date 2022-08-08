@@ -1,5 +1,7 @@
 html{overflow-x: hidden;
     font-family: 'Readex Pro', sans-serif;
+	 background: url('https://i.im.ge/2022/08/08/FW8bwp.fondo.png?resize=2200:*');
+ 	 background-attachment: fixed;
 	}
 hr.soften {
     height: 1px;
